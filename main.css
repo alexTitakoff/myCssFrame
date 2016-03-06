@@ -52,7 +52,13 @@ table {
 
 
 
+html {
+	width: 100%;
 
+
+	margin: 0 auto;
+	
+}
 
 
 body {
@@ -63,9 +69,15 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	
+	
 
 
 
+}
+
+
+#root_cont {
+	
 }
 
 
@@ -548,8 +560,455 @@ body {
 
 
 
+/*Cистема сеток и позиционирование */
+
+
+.myRow {
+	margin: 20px;
+	
+	
+	border: 2px solid #2FA1EC; 
+	text-align: center;
+}
+
+
+.content {
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myCol-6  {
+	width: 47%;
+	
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+.content2 {
+	margin: 10px;
+}
+
+
+
+
+
+.myCol-6-split  {
+	width: 47%;
+	
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-6-split  {
+		width: 99%;
+		display: block;
+		margin: 10px 0;
+
+
+
+	}
+
+
+}
+
+
+
+
+.myCol-4  {
+	width: 22%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+.myCol-4-split  {
+	width: 22%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-4-split  {
+		width: 99%;
+		display: block;
+		margin: 10px 0;
+
+
+
+	}
+
+
+}
+
+.myCol-4-split2  {
+	width: 22%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-4-split2  {
+		width: 47%;
+		display: inline-block;
+		margin: 10px 0;
+
+
+
+	}
+
+
+}
+
+
+
+.myCol-3  {
+	width: 13%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+.myCol-3-split  {
+	width: 13%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {	
+	.myCol-3-split  {
+		width: 98%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+.myCol-3-split2  {
+	width: 13%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {	
+	.myCol-3-split2  {
+		width: 47%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+.myCol-3-split3  {
+	width: 13%;
+	font-size: 13px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+@media only screen and (max-width : 768px) {	
+	.myCol-3-split3  {
+		width: 30%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+.myCol-2  {
+	width: 9%;
+	font-size: 10px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+.myCol-2-split  {
+	width: 9%;
+	font-size: 10px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-2-split  {
+		width: 98%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+.myCol-2-split2  {
+	width: 9%;
+	font-size: 10px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-2-split2  {
+		width: 47%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+
+
+.myCol-2-split4  {
+	width: 9%;
+	font-size: 10px;
+	border: 2px solid #2FA1EC; 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width : 768px) {
+
+	
+	.myCol-2-split4  {
+		width: 20%;
+		display: inline-block;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*Cистема сеток и позиционирование */
+
+
 
 
 
 
 /////
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1900px) {
+
+	html {
+		width: 100%;
+		
+
+	}
+
+
+}
+
+
+@media only screen and (max-width : 1500px) {
+
+	html {
+		width: 100%;
+		
+
+	}
+
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+	html {
+		width: 100%;
+		
+
+	}
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+
+	html {
+		width: 100%;
+
+
+	}
+
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	html {
+		width: 100%;
+
+
+	}
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	html {
+		width: 100%;
+
+
+	}
+
+
+}
+
+
+@media only screen and (max-width : 360px) {
+
+	html {
+		width: 100%;
+
+
+	}
+
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+	html {
+		width: 100%;
+
+
+	}
+
+
+
+}
